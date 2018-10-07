@@ -13,8 +13,12 @@ http://assignment1-200349465.azurewebsites.net/
 
 ## Developer Details:
 Student Name: Harleen Singh
+
 Student Number: 200349465
+
 Subject Code: COMP
+
 Course Number: 2084
+
 Course Name: Server-Side Scripting using ASP.NET
 
