@@ -17,6 +17,9 @@
         <th>
             @Html.DisplayNameFor(model => model.CourseHours)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseCode)
+        </th>
         <th></th>
     </tr>
 
@@ -27,6 +30,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CourseHours)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CourseCode)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
