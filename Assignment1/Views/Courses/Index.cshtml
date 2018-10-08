@@ -4,12 +4,12 @@
     ViewBag.Title = "Courses";
 }
 
-<h2>Index</h2>
+<h2>Courses List</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create",null,new { @class = "btn btn-success" })
 </p>
-<table class="table">
+<table class="table table-responsive table-bordered table-hover" >
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.CourseName)
@@ -35,9 +35,9 @@
             @Html.DisplayFor(modelItem => item.CourseCode)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }, new { @class = "btn btn-success" })  |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }, new { @class = "btn btn-primary" })  |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID },new { @class = "btn btn-warning" })
         </td>
     </tr>
 }

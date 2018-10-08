@@ -4,7 +4,7 @@
     ViewBag.Title = "Course Details";
 }
 
-<h2>Details</h2>
+<h2>Course Details</h2>
 
 <div>
     <h4>Tbl_Courses</h4>
@@ -36,7 +36,9 @@
 
     </dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+<div class="col-md-offset-2 col-md-10">
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }, new { @class = "btn btn-primary" }) |
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-success" })
+    </p>
+</div>
