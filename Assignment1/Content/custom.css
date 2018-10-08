@@ -33,7 +33,7 @@ footer {
     background: #D3D3D3;
     padding: 20px;
     text-align: center;
-    position:fixed;
+    position:relative;
     bottom:20px;
 }
 .copyright{
