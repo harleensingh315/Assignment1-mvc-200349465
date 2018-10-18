@@ -20,5 +20,5 @@ Subject Code: COMP
 
 Course Number: 2084
 
-Course Name: Server-Side Scripting using ASP.NET
+Course Name: Server-Side Scripting using - ASP.NET
 
